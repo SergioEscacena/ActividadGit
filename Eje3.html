@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparación XML y HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f5f5f5;
+            width: 70%;
+        }
+        .box {
+            width: 45%;
+            background-color: #e0e9ec;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .divider {
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .arrow img {
+            width: 60px;
+            height: auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Caja XML -->
+        <div class="box">
+            <h2>XML</h2>
+            <p>Sigue las reglas generales de SGML, pero con modificaciones.</p>
+            <p>Especifica cómo deben definirse las etiquetas a un tipo de documento.</p>
+            <p>Navegador: plataforma para desarrollo de aplicaciones.</p>
+        </div>
+        
+        <!-- Flecha -->
+        <div class="divider">
+            <div class="arrow">
+                <img src="https://cdn-icons-png.flaticon.com/512/45/45340.png" alt="Flecha XML a HTML">
+            </div>
+        </div>
+
+        <!-- Caja HTML -->
+        <div class="box">
+            <h2>HTML</h2>
+            <p>Usa SGML para crear un nuevo lenguaje, <span class="bold">particular para desarrollo web</span>.</p>
+            <p>Aplica un <span class="bold">conjunto limitado de etiquetas</span> sobre un único tipo de documento.</p>
+            <p>Navegador: es un visor de páginas.</p>
+        </div>
+    </div>
+</body>
+</html>
